@@ -14,13 +14,13 @@ Vector elements are placed in contiguous storage so that they can be accessed an
 ```
 
 ### Methods in vector
-##### push_back(value)
+#### push_back(value)
 push_back(value) – It push the elements into a vector from the back
 
-##### at(position)
+#### at(position)
 at(pos) – Returns a reference to the element at position ‘pos’ in the vector
 
-##### size()
+#### size()
 size() – Returns the number of elements in the vector.
 
 
@@ -44,7 +44,7 @@ size() – Returns the number of elements in the vector.
 	cout<<endl;
 ```
 
-##### pop_back()
+#### pop_back()
 pop_back() – It is used to pop or remove elements from a vector from the back.
 ```c++
 	vector<int> v;
@@ -69,7 +69,7 @@ pop_back() – It is used to pop or remove elements from a vector from the back.
 	cout<<endl;
 ```
 
-##### insert(pos, value)
+#### insert(pos, value)
 insert() – It inserts new elements before the element at the specified position
 
 ```c++
@@ -86,16 +86,16 @@ insert() – It inserts new elements before the element at the specified positio
 	}									//Output : 30 10 40 20
 	cout<<endl;
 ```
-##### emplace()
+#### emplace()
 emplace() – It extends the container by inserting new element at position
 
-##### emplace_back()
+#### emplace_back()
 emplace_back() – It is used to insert a new element into the vector container, the new element is added to the end of the vector
 
-##### clear()
+#### clear()
 clear() – It is used to remove all the elements of the vector container
 
-##### empty()
+#### empty()
 empty() – Returns whether the container is empty.
 
 ```c++
@@ -112,10 +112,10 @@ empty() – Returns whether the container is empty.
 	cout<<v.empty()<<endl;          //Output : 1 (means True)
 ```
 
-##### erase() 
+#### erase() 
 erase() – It is used to remove elements from a container from the specified position or range.
 
-##### reseize(n)
+#### reseize(n)
 resize(n) – Resizes the container so that it contains ‘n’ elements.
 
 ```c++
@@ -128,7 +128,7 @@ resize(n) – Resizes the container so that it contains ‘n’ elements.
 	cout<<v.size()<<endl;     //Output : 10
 ```
 
-##### assign(size, value)
+#### assign(size, value)
 assign() – It assigns new value to the vector elements by replacing old ones
 ```c++
 	vector<int> v;
@@ -146,22 +146,22 @@ assign() – It assigns new value to the vector elements by replacing old ones
 
 ```
 
-##### reserve()
+#### reserve()
 reserve() – Requests that the vector capacity be at least enough to contain n elements.
 
-##### front()
+#### front()
 front() – Returns a reference to the first element in the vector
 
-##### back()
+#### back()
 back() – Returns a reference to the last element in the vector
 
-##### begin()
+#### begin()
 begin() – Returns an iterator pointing to the first element in the vector
 
-##### end()
+#### end()
 end() – Returns an iterator pointing to the theoretical element that follows the last element in the vector
 
-##### swap()
+#### swap()
 swap() – It is used to swap the contents of one vector with another vector of same type. Sizes may differ.
 
 
